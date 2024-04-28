@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Eliminar productos del carrito de compra en el portal" skipped="0" tests="2" time="6.48" timestamp="2024-04-28 10:10:56"><testcase name="Eliminar un producto del carrito de compra"/><testcase name="Eliminar tres productos del carrito de compra"/></testsuite>

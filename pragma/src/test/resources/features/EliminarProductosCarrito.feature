@@ -1,9 +1,10 @@
-Feature: Test eliminar producto al carrito de compra en el portal
+Feature: Eliminar productos del carrito de compra en el portal
     Como usuario deseo automatizar la funcionalidad de eliminar un producto del carrito de compra
 
   Background: Ingreso al portal
     Given que ingreso a la página https://www.demoblaze.com/
 
+  @CP06
   @Eliminar_un_producto_del_carrito_de_compra
   Scenario: Eliminar un producto del carrito de compra
     And ingreso a la categoría "Laptops"
@@ -13,6 +14,7 @@ Feature: Test eliminar producto al carrito de compra en el portal
     Then elimino el producto del carrito
     And valido que el carrito de compra este vacío
 
+  @CP07
   @Eliminar_tres_productos_del_carrito_de_compra
   Scenario: Eliminar tres productos del carrito de compra
     And ingreso a la categoría "Phones"
