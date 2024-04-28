@@ -1,0 +1,11 @@
+pragma\steps\AgregarProductosCarritoSteps.class
+pragma\utils\Utils.class
+pragma\acceptanceTest\agregarProductosTest\RunnerAgregarProductosTest.class
+pragma\steps\RegistroYLoginSteps.class
+pragma\definitions\AgregarProductosCarritoDefinitions.class
+pragma\definitions\RegistroYLoguinDefinitions.class
+pragma\acceptanceTest\registroYLoginTest\RunnerRegistroYLoginTest.class
+pragma\pages\CartPage.class
+pragma\pages\HomePage.class
+pragma\pages\ProductPage.class
+pragma\acceptanceTest\AppTesting.class

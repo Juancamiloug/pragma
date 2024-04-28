@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: pragma.acceptanceTest.registroYLoginTest.RunnerRegistroYLoginTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.89 s <<< FAILURE! -- in pragma.acceptanceTest.registroYLoginTest.RunnerRegistroYLoginTest
+Test de registro y login de usuario en el portal.Registrase en el portal demoblaze.com -- Time elapsed: 13.05 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Cliente registrado previamente !!
+	at pragma.pages.HomePage.validarRegistroExitosoEnElPortal(HomePage.java:107)
+	at pragma.steps.RegistroYLoginSteps.validarRegistroExitoso(RegistroYLoginSteps.java:45)
+	at pragma.steps.RegistroYLoginSteps$ByteBuddy$QOa30AKl.validarRegistroExitoso$accessor$WYsIy3sN(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pragma.steps.RegistroYLoginSteps$ByteBuddy$QOa30AKl.validarRegistroExitoso(Unknown Source)
+	at pragma.definitions.RegistroYLoguinDefinitions.validoElRegistroExitosoEnElPortal(RegistroYLoguinDefinitions.java:32)
+	at ✽.valido el registro exitoso en el portal(file:///C:/Users/USUARIO/OneDrive/Documentos/02%20Automatización/03%20Pragma/pragma/pragma/src/test/resources/features/RegistroYLoginUsuario.feature:11)
+

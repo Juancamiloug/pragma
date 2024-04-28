@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Test agregar productos al carrito de compra en el portal" skipped="0" tests="2" time="7.38" timestamp="2024-04-27 08:41:58"><testcase name="Agregar un producto al carrito de compra"/><testcase name="Agregar dos productos al carrito de compra y validar el total"/></testsuite>
