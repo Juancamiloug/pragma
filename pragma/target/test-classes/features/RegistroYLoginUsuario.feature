@@ -10,7 +10,7 @@ Feature: Test de registro y login de usuario en el portal
     When ingreso las credenciales de registro: Usuario y Contraseña
     Then valido el registro exitoso en el portal
 
-  @Iniciar_Sesión_en_el_portal
+  @Iniciar_sesion_en_el_portal
   Scenario: Iniciar sesión en el portal demoblaze.com
     And ingreso a la sección de Login
     When ingreso las credenciales de sesión: Usuario y Contraseña

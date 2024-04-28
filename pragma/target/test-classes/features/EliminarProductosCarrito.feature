@@ -14,7 +14,7 @@ Feature: Test eliminar producto al carrito de compra en el portal
     And valido que el carrito de compra este vacío
 
   @Eliminar_tres_productos_del_carrito_de_compra
-  Scenario: Eliminar un producto del carrito de compra
+  Scenario: Eliminar tres productos del carrito de compra
     And ingreso a la categoría "Phones"
     And ingreso al producto "Nexus 6"
     And agrego el producto al carrito de compra
