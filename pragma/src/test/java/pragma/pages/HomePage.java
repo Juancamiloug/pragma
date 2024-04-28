@@ -97,11 +97,12 @@ public class HomePage extends Utils {
     }
 
     public void validarRegistroExitosoEnElPortal() {
+        esperarAlertaVisible();
         String respuesta = moverAAlertaYExtraerTexto();
         respuesta = respuesta.toLowerCase();
-        if (respuesta.contains("succesful") || respuesta.contains("exitoso")) {
+        if (respuesta.contains("successful")) {
             respuesta = ">>>> Cliente registrado con exito !!";
-        } else if (respuesta.contains("already") || respuesta.contains("existe")) {
+        } else if (respuesta.contains("already")) {
             respuesta = ">>>> Cliente registrado previamente !!";
             Serenity.takeScreenshot();
             fail("Cliente registrado previamente !!");

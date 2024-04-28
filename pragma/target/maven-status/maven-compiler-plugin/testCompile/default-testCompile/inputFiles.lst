@@ -1,11 +1,13 @@
-C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\acceptanceTest\agregarProductosTest\RunnerAgregarProductosTest.java
-C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\acceptanceTest\AppTesting.java
-C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\acceptanceTest\registroYLoginTest\RunnerRegistroYLoginTest.java
+C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\acceptanceTests\RunnerAgregarProductosTest.java
+C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\acceptanceTests\RunnerEliminarProductosCarritoTest.java
+C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\acceptanceTests\RunnerRegistroYLoginTest.java
 C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\definitions\AgregarProductosCarritoDefinitions.java
+C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\definitions\EliminarProductosCarritoDefinitions.java
 C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\definitions\RegistroYLoguinDefinitions.java
 C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\pages\CartPage.java
 C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\pages\HomePage.java
 C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\pages\ProductPage.java
 C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\steps\AgregarProductosCarritoSteps.java
+C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\steps\EliminarProductosCarritoSteps.java
 C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\steps\RegistroYLoginSteps.java
 C:\Users\USUARIO\OneDrive\Documentos\02 Automatización\03 Pragma\pragma\pragma\src\test\java\pragma\utils\Utils.java

@@ -67,7 +67,6 @@ public class Utils extends PageObject {
 
     /* Mover a elemento activo */
     public void moverAElemento(By elemento) {
-        // WebElement element = find(elemento);
         moveTo(elemento);
     }
 
@@ -113,4 +112,40 @@ public class Utils extends PageObject {
         }
     }
 
+    /* Esperar alerta visible */
+    public boolean esperarAlertaVisible() {
+        try {
+            WebDriverWait wait = new WebDriverWait(getDriver(), getWaitForTimeout());
+            wait.until(ExpectedConditions.alertIsPresent());
+            return true;
+        } catch (Exception e) {
+            System.out.println("alerta no presente");
+            return false;
+        }
+    }
+
+    /* Validar si elemento esta presente */
+    public Integer validarSiElementoEstaPresente(By elemento) {
+        try {
+            WebElement Element = getDriver().findElement(elemento);
+            boolean respuesta = Element.isDisplayed();
+            if (respuesta == true) {
+                System.out.println("Elemento presente");
+                return 1;
+            } else {
+                System.out.println("Elemento no presente");
+                return 0;
+            }
+        } catch (Exception e) {
+            System.out.println("Error - Elemento no encontrado " + e);
+            return -1;
+        }
+
+    }
+
+    /* Extraer URL actual */
+    public String extraerURlActual(){
+        String URL = getDriver().getCurrentUrl();
+        return URL;
+    }
 }

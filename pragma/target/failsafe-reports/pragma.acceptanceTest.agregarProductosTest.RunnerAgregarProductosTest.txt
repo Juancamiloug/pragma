@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: pragma.acceptanceTest.agregarProductosTest.RunnerAgregarProductosTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 65.16 s -- in pragma.acceptanceTest.agregarProductosTest.RunnerAgregarProductosTest
