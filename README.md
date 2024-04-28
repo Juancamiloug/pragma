@@ -7,4 +7,8 @@ Lenguaje: Java
 Patrón: POM
 Framework: SerenityBDD + Java + Cucumber + Gherkin
 
+Observaciones:
+El reporte detallado de la última ejecución del proyecto de automatizaciónn lo encuentras en la ruta:
+src/target/site/serenity/index.html
+
 
