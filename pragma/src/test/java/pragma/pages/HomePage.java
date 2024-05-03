@@ -10,27 +10,27 @@ import pragma.utils.Utils;
 public class HomePage extends Utils {
 
     // Localizadores Home Page
-    public By buttonLoginHome = By.id("login2");
-    public By buttonSignUpHome = By.id("signin2");
-    public By buttonCartHome = By.xpath("//a[@id='cartur']");
-    public By buttonHome = By.xpath("//a[contains(text(),'Home')]");
-    public By buttonCatPhones = By.xpath("//a[contains(text(),'Phones')]");
-    public By buttonCatLaptops = By.xpath("//a[contains(text(),'Laptops')]");
-    public By buttonCatMonitors = By.xpath("//a[contains(text(),'Monitors')]");
+    public final By buttonLoginHome = By.id("login2");
+    public final By buttonSignUpHome = By.id("signin2");
+    public final By buttonCartHome = By.xpath("//a[@id='cartur']");
+    public final By buttonHome = By.xpath("//a[contains(text(),'Home')]");
+    public final By buttonCatPhones = By.xpath("//a[contains(text(),'Phones')]");
+    public final By buttonCatLaptops = By.xpath("//a[contains(text(),'Laptops')]");
+    public final By buttonCatMonitors = By.xpath("//a[contains(text(),'Monitors')]");
 
     // Localizadores modal registro
-    public By inputUserNameSign = By.id("sign-username");
-    public By inputPasswordSign = By.id("sign-password");
-    public By buttonCloseSign = By.xpath("//*[@id=\"signInModal\"]/div/div/div[3]/button[1]");
-    public By buttonSignUp = By.xpath("//*[@id=\"signInModal\"]/div/div/div[3]/button[2]");
+    public final By inputUserNameSign = By.id("sign-username");
+    public final By inputPasswordSign = By.id("sign-password");
+    public final By buttonCloseSign = By.xpath("//*[@id=\"signInModal\"]/div/div/div[3]/button[1]");
+    public final By buttonSignUp = By.xpath("//*[@id=\"signInModal\"]/div/div/div[3]/button[2]");
 
     // Localizadores modal login
-    public By inputUserNameLogin = By.id("loginusername");
-    public By inputPasswordLogin = By.id("loginpassword");
-    public By buttonLogin = By.xpath("//*[@id=\"logInModal\"]/div/div/div[3]/button[2]");
+    public final By inputUserNameLogin = By.id("loginusername");
+    public final By inputPasswordLogin = By.id("loginpassword");
+    public final By buttonLogin = By.xpath("//*[@id=\"logInModal\"]/div/div/div[3]/button[2]");
 
     // Localizador post login
-    public By buttonWelcome = By.id("nameofuser");
+    public final By buttonWelcome = By.id("nameofuser");
 
     public void ingresarAlPortal() {
         abrirPaginaWeb();

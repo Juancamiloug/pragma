@@ -9,10 +9,10 @@ import pragma.utils.Utils;
 
 public class CartPage extends Utils {
 
-    public By precioCarrito = By.xpath("//h3[@id='totalp']");
-    public By grillaProductos = By.xpath(
+    public final By precioCarrito = By.xpath("//h3[@id='totalp']");
+    public final By grillaProductos = By.xpath(
             "//body/div[@id='page-wrapper']/div[@class='row']/div[@class='col-lg-8']/div[@class='table-responsive']/table[@class='table table-bordered table-hover table-striped']/tbody[@id='tbodyid']");
-    public String urlCarrito = "https://www.demoblaze.com/cart.html";
+    public final String urlCarrito = "https://www.demoblaze.com/cart.html";
     public String respuesta;
     public String precioTotalCarrito;
 

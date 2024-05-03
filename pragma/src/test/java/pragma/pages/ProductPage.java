@@ -6,9 +6,9 @@ import pragma.utils.Utils;
 
 public class ProductPage extends Utils{
 
-    public By nombreProducto = By.xpath("//h2[@class='name']");
-    public By precioProducto = By.xpath("//h3[@class='price-container']");
-    public By buttonAddToCart = By.xpath("//a[@class='btn btn-success btn-lg']");
+    public final By nombreProducto = By.xpath("//h2[@class='name']");
+    public final By precioProducto = By.xpath("//h3[@class='price-container']");
+    public final By buttonAddToCart = By.xpath("//a[@class='btn btn-success btn-lg']");
 
     public String nombreProd = "";
     public String precioProdTxt = "";
